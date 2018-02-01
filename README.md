@@ -1,5 +1,6 @@
-# Chen-20xx-JHM
-Codes for results reproduction of Chen 20xx JHM paper.
+# Chen-2018-JHM
+Tools and scripts for Journal of Hydrometeorology (2018) paper:
+Chen, X., and F. Hossain (2018): Understanding model-based probable maximum precipitation estimation as a function of storm type and geographic region using atmospheric reanalysis, J. Hydrometeor. 
 
 ## hyak\_tools
 Tools to be put on UW Hyak system. Put the folder at /civil/shared/ganges/xiaodc/lulcc/tools/reanalysis\_tools, within each directiry create necessary folders (e.g. logs, msub\_jobs.logs), and run the scripts. These script will create the Matlab format data from the concatenated netCDF files, and work all the way till the grid\_top50\_* data are obtained. Check the README.md in each folder for more explanation.
